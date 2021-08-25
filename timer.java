@@ -1,15 +1,14 @@
-public class Countdown{
 
-  private int min;
-  private int seconds;
-  private int sec;
-  public Countdown(minutes){
-    min = minutes;
-    seconds = minutes*60;
-  }
-  public void increment(){
-    var now = new Date();
-  }
+// Java program to demonstrate
+//schedule method calls of Timer class
+  
+import java.util.Timer;
+import java.util.TimerTask;
+
+public class Countdown{
+  Timer timer = new Timer();
+ }
+
 
 
 
